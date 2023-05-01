@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 300;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
 :root {
     --primary-color: #F2F4F3;
     --secundary-color: #32936F;
