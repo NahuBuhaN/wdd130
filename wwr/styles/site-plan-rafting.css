@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); 
 :root {
     --primary-color: #F2F4F3;
-    --secundary-color: #9BC9E2;
+    --secundary-color: #32936F;
     --accent1-color: #449DD1;
     --accent2-color: #000000;
 
@@ -10,7 +10,7 @@
     
     --nav-background-color:#F2F4F3
     --nav-link-color:#449DD1
-    --nav-hover-link-color:#9BC9E2
+    --nav-hover-link-color:#32936F
     --nav-hover-background-color:#000000
 }
 body {
