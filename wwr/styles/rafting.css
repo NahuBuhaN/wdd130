@@ -43,7 +43,7 @@ nav {
 
 nav a {
     display: block;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
     padding: 1rem;
 }
