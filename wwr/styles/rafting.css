@@ -14,3 +14,9 @@
     --nav-hover-link-color: #F2F4F3;
     --nav-hover-background-color: #000000;/* done */
 }
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
