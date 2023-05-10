@@ -57,9 +57,50 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+.hero {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
 
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    padding: 3%;
+}
+
+.hero h1 {
+    top: 10%;
+    right: 0;
+    left: 0;
+    padding: 0.3rem;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(34, 87, 122, .6);
+}
+
+.hero article {
+    top: 33%;
+    right: 0;
+    left: 0;
+    max-width: 81%;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background-color: rgb(56, 163, 165, .7);
+}
+
+.sociallinks a {
+    text-decoration: none;
 }
