@@ -76,3 +76,8 @@ footer {
 .intend {
     padding-left: 1.5rem;
 }
+
+.grid {
+    display: grid;
+    align-items: center;
+}
