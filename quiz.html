@@ -10,20 +10,31 @@
   <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
-  <form>
-    <h2>Pregunta 1:</h2>
-    <label for="respuesta1">¿Cuál es la capital de Francia?</label>
-    <input type="text" id="respuesta1" name="respuesta1">
-    
-    <h2>Pregunta 2:</h2>
-    <label for="respuesta2">¿Cuál es el río más largo del mundo?</label>
-    <input type="text" id="respuesta2" name="respuesta2">
-    
-    <h2>Pregunta 3:</h2>
-    <label for="respuesta3">¿Cuál es el símbolo químico del oro?</label>
-    <input type="text" id="respuesta3" name="respuesta3">
-    
-    <input type="submit" value="Enviar respuestas">
+<div class="app">
+  <h1>Basic HTML and CSS Quiz</h1>
+  <div class="quiz">
+    <h2 id="question">1.</h2>
+    <h3 id="answer">What does the acronym css stand for?</h3>
+    <div id="answer-text">
+      <textarea class="textarea"></textarea>
+    <h2 id="question">2.</h2>
+    <h3 id="answer">How are id and class attributes selected in CSS?</h3>
+    <div id="answer-text">
+      <textarea class="textarea"></textarea>
+    <h2 id="question">3.</h2>
+    <h3 id="answer">Wich of the following is a valid CSS comment?</h3>
+    <div id="answer-text">
+      <button value="" selected disabled>Choose One...</button>
+      <h2 id="question">4.</h2>
+      <h3 id="answer">What is the bottom margin given this declaration?</h3>
+      <div id="answer-text">
+        <textarea class="textarea"></textarea>
+    </div>
+    <button id="next-btn">Submit Quiz</button>
+  </div>    
+
+
+</div>
 
 </body>
 </html>
