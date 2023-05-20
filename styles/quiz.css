@@ -30,3 +30,6 @@ body{
   color: #001e4d;
   font-weight: 600;
 }
+label, textarea {
+  text-align: center;
+}
