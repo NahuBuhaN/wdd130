@@ -1,74 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quiz</title>
-  <style>
-    /* Estilos CSS para el quiz */
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    th, td {
-      padding: 8px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    
-    tr:hover {
-      background-color: #f5f5f5;
-    }
-    
-    th {
-      background-color: #4CAF50;
-      color: white;
-    }
-    
-    button {
-      display: block;
-      margin: 20px auto;
-      padding: 10px 20px;
-      background-color: #3498db;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    
-    button:hover {
-      background-color: #2980b9;
-    }
-  </style>
+  <title>Basic HTML and CSS Quiz</title>
+  <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
-  <h1>Quiz</h1>
-  
-  <table>
-    <tr>
-      <th>Pregunta</th>
-      <th>Opciones de Respuesta</th>
-    </tr>
-    <tr>
-      <td>¿Cuál es la capital de Francia?</td>
-      <td>
-        <input type="radio" name="question1" value="a">
-        <label for="a">Roma</label><br>
-        <input type="radio" name="question1" value="b">
-        <label for="b">Londres</label><br>
-        <input type="radio" name="question1" value="c">
-        <label for="c">París</label>
-      </td>
-    </tr>
-    <!-- Agrega más filas de preguntas aquí -->
-  </table>
+  <div class="app">
 
-  <button onclick="submitQuiz()">Enviar respuestas</button>
+  </div>
 
-  <script>
-    function submitQuiz() {
-      // Lógica para verificar las respuestas y mostrar los resultados
-      // ...
-    }
-  </script>
 </body>
 </html>
