@@ -220,9 +220,8 @@ label {
 }
   
 input, select, textarea {
-    padding: 0.5rem;
+    padding: 0rem;
     font-size: 1.1rem;
-    width: 100%;
 }
   
 img {
