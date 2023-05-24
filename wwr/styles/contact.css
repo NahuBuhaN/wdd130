@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans&display=swap');/* done */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans&display=swap');
+/* done */
 
 :root {
     --primary-color: #FFFFFF;/* headings */
@@ -168,7 +169,6 @@ footer {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Noto+Sans&display=swap');
 
 * {
     margin: auto;
