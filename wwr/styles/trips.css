@@ -17,7 +17,7 @@
 
 * {
     max-width: 650px;
-    padding: 0;
+    padding: inherit;
     margin: auto;
 }
 
