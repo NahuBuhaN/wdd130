@@ -16,8 +16,8 @@
 }
 
 * {
-    max-width: 960px;
-    padding: 0;
+    max-width: 650px;
+    padding: inherit;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ nav a {
     display: block;
     color: var(--secondary-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 nav a:link, nav a:visited {
@@ -165,6 +165,7 @@ footer {
     text-decoration: none;
     background-color: white;
 }
+
 .btn {
     margin: 1rem;
     background-color: darkblue;
@@ -173,4 +174,13 @@ footer {
     border-radius: 0.3rem;
     padding: 0.75rem;
     font-size: 1.2rem;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-type: disc;
 }
